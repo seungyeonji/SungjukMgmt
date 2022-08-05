@@ -96,7 +96,4 @@ public class Student {		//멤버변수
 		return String.format("%-10s\t%10s\t%5d%5d%5d%5d\t\t%5d%8.2f%3c",
 				hakbun, name, kor, eng, mat, edp, tot, avg, grade);	//-10s : 왼쪽정렬, 10자리 확보
 	}
-	
-	
-	
 }
