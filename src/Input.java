@@ -38,6 +38,8 @@ public class Input {
 			
 			System.out.print("계속(I/O) ? : ");
 			io = this.sc.next();
+			this.sc.nextLine();	//buffer 날리기
+			
 		}while(io.equals("I")||io.equals("i"));
 		return count;
 	}
